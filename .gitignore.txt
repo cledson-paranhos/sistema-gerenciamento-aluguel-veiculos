@@ -1,0 +1,46 @@
+# Ignore arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore diretórios e arquivos de compilação
+/bin/
+/build/
+/out/
+/target/
+/classes/
+
+# Ignore arquivos gerados pela IDE
+*.iml
+.idea/
+.vscode/
+*.class
+*.war
+*.ear
+*.log
+
+# Ignore dependências geradas pelo Maven ou Gradle
+/.mvn/
+/.mvn/
+/.gradle/
+/settings.gradle
+/settings.gradle.kts
+/build.gradle
+/build.gradle.kts
+
+# Ignore logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+
+# Ignore arquivos de configuração locais
+*.properties
+*.env
+
+# Ignore arquivos relacionados ao controle de versão
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Ignore arquivos de teste gerados
+/test-output/
