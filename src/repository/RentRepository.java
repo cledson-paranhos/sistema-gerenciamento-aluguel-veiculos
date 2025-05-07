@@ -10,9 +10,7 @@ public class RentRepository {
     private List<Rent> listRent;
 
     public RentRepository() {
-        if (listRent == null) {
-            listRent = new ArrayList<>();
-        }
+        listRent = new ArrayList<>();
         listRent = FileUtils.loadFromFileRented();
     }
 

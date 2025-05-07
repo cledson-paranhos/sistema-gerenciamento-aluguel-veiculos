@@ -10,9 +10,7 @@ public class ClientRepository {
     private List<Client> listClient;
 
     public ClientRepository() {
-        if (listClient == null) {
-            listClient = new ArrayList<>();
-        }
+        listClient = new ArrayList<>();
         listClient = FileUtils.loadFromFileClient();
     }
 

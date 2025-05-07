@@ -54,7 +54,7 @@ public class FileUtils {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePathVehicle))) {
             for (Vehicle vehicle : vehicles) {
                 if (vehicle instanceof Car) {
-                    writer.write(vehicle.toString() + "," + ((Car) vehicle).getCapacityTrunk() + "," + ((Car) vehicle).getCapacityTrunk());
+                    writer.write(vehicle.toString() + "," + ((Car) vehicle).getNumberDoors() + "," + ((Car) vehicle).getCapacityTrunk());
                 } else if (vehicle instanceof Motorcycle) {
                     writer.write(vehicle.toString() + "," + ((Motorcycle) vehicle).getCylinder());
                 }

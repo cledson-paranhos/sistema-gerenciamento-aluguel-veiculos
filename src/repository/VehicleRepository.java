@@ -10,9 +10,7 @@ public class VehicleRepository {
     private List<Vehicle> listVehicle;
 
     public VehicleRepository() {
-        if (listVehicle == null) {
-            listVehicle = new ArrayList<>();
-        }
+        listVehicle = new ArrayList<>();
         listVehicle = FileUtils.loadFromFileVehicle();
     }
 
